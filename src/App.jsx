@@ -109,9 +109,9 @@ function App() {
       </div>
 
       {/* Separate section for displaying todos */}
-     {/* Separate section for displaying todos */}
-<div className='container'>
-  <div className='row'>
+     
+      <div className='container'>
+  <div className='row card-container'>
     {filteredTodos.map(todo => (
       <div key={todo.id} className={`col-md-6 ${filteredTodos.length <= 2 ? 'col-lg-6' : 'col-lg-4'} mb-3`}>
         <div className="card">
